@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+body {
+  background-color: rgb(4, 255, 255);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.preview {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 7px;
+  margin: 0 12px 0 0;
+}
+
+#preview {
+  padding: 10px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 426px) {
+  .editor {
+    margin: 0 0 20px 0;
+  }
+}
